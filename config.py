@@ -65,7 +65,7 @@ class Configuration: # pylint: disable=too-few-public-methods
     # provide this if bot failes to get (optional)
     BOT_BIO = getenv("BOT_BIO")
     # provide this if bot fails to get (optional)
-    BOT_NAME = getenv("BOT_NAME", "Nora")
+    BOT_NAME = getenv("BOT_NAME", "Nganu")
     # provide this if bot fails to get (optional)
     BOT_PIC = getenv("BOT_PIC")
     # provide this if bot fails to get (optional)
@@ -87,9 +87,9 @@ class Configuration: # pylint: disable=too-few-public-methods
 
 # ---- assistant ----
     # set your assistant name, will be used in assistant tab's about section
-    ASSISTANT_NAME = getenv("ASSISTANT_NAME", "Lara")
+    ASSISTANT_NAME = getenv("ASSISTANT_NAME", "Er")
     # set your assistant age
-    ASSISTANT_AGE = getenv("ASSISTANT_AGE", "20")
+    ASSISTANT_AGE = getenv("ASSISTANT_AGE", "gtw")
     # set your assistant pic
     ASSISTANT_PIC = getenv("ASSISTANT_PIC", "./main/core/resources/images/nora.png")
     # set your assistant about text
