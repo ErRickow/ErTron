@@ -4,7 +4,7 @@ for both assistant & userbot and starts their clients.
 """
 
 import asyncio
-from ..userbot import app
+from main.userbot import app
 
 
 
