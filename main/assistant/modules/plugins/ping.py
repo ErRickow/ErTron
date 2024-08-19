@@ -17,7 +17,7 @@ async def bot_ping_handler(_, m: Message):
         )
         end = datetime.now()
         ms = (end - start).microseconds / 1000
-        await msg.edit(f"Pöng !\n`{ms}`\nUptime: `{app.uptime()}`")
+        await msg.reply(f"Pöng !\n`{ms}`\nUptime: `{app.uptime()}`")
 
 
 
