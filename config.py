@@ -109,7 +109,7 @@ class Configuration: # pylint: disable=too-few-public-methods
     # temporary download location (required)
     TEMP_DICT = getenv("TEMP_DICT", path.abspath(".") + "/downloads/")
     # official repo for updates
-    UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/ErUserbot/ErTron.git")
+    UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/ErUserbot/ErTron.git anu")
     # this is used to get your accurate time
     TIME_ZONE = getenv("TIME_ZONE", "Asia/Jakarta")
     # toggle this on/off to give/remove access of bot to sudo users
