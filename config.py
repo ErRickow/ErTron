@@ -93,7 +93,7 @@ class Configuration: # pylint: disable=too-few-public-methods
     # set your assistant pic
     ASSISTANT_PIC = getenv("ASSISTANT_PIC", "./main/core/resources/images/nora.png")
     # set your assistant about text
-    ASSISTANT_TEXT = getenv("ASSISTANT_TEXT", "")
+    ASSISTANT_TEXT = getenv("ASSISTANT_TEXT", "kontol ah ah")
 
 # ---- vcbot ----
     # start the vcbot client
