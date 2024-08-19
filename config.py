@@ -4,7 +4,7 @@ from os import getenv, path
 
 
 _PMPERMIT_TEXT = """
-Hey ! This is [Tron Userbot](https://t.me/tronuserbot) Security System.
+Hey ! This is [Er Nganu](https://t.me/tronuserbot) Security System.
 **You will be blocked if you spammed my owner's pm**
 Currently My Owner is busy ! So Wait Until He Arrives.
 And Better Not To Spam His here !
