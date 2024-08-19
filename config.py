@@ -103,7 +103,7 @@ class Configuration: # pylint: disable=too-few-public-methods
 
 # ---- other ----
     # your telegraph account name (default: Tronuserbot)
-    TL_NAME = getenv("TL_NAME", "Tron UserBot")
+    TL_NAME = getenv("TL_NAME", "Er")
     # thumbnail used while uploading plugins, etc. (optional)
     THUMB_PIC = getenv("THUMB_PIC", "./main/core/resources/images/tron-square.png")
     # temporary download location (required)
