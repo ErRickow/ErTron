@@ -39,11 +39,10 @@ async def ping_handler(_, m: Message):
 
         if app.long() == 1:
             start = datetime.now()
-            await app.send_edit(". . .", text_type=["mono"])
             end = datetime.now()
             m_s = (end - start).microseconds / 1000
-            await app.send_edit(
-                f"**Pöng !**\n`{m_s} ms`\n⧑ {app.UserMention}",
+            await message.send_reply(
+                f"**Pöng !!**\n`{m_s} ms`\n⧑ {app.UserMention}",
                 disable_web_page_preview=True
             )
         elif app.long() == 2:

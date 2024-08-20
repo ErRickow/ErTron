@@ -4,7 +4,7 @@ from os import getenv, path
 
 
 _PMPERMIT_TEXT = """
-Hey ! This is [Tron Userbot](https://t.me/tronuserbot) Security System.
+Hey ! This is [Er Nganu](https://t.me/tronuserbot) Security System.
 **You will be blocked if you spammed my owner's pm**
 Currently My Owner is busy ! So Wait Until He Arrives.
 And Better Not To Spam His here !
@@ -55,7 +55,7 @@ class Configuration: # pylint: disable=too-few-public-methods
     # your custom bio (default: telegram bio)
     USER_BIO = getenv("USER_BIO")
     # used for alive plugin (default: tronuserbot logo image)
-    USER_PIC = getenv("USER_PIC", "https://telegra.ph/file/48f5dc15d51ea7f721275.jpg")
+    USER_PIC = getenv("USER_PIC", "https://telegra.ph/file/e3f1d28649982a3df33df.jpg")
     # add your telegram id if userbot fails to get your user id
     USER_ID = getenv("USER_ID")
     # add your username if userbot fails to get your username
@@ -65,7 +65,7 @@ class Configuration: # pylint: disable=too-few-public-methods
     # provide this if bot failes to get (optional)
     BOT_BIO = getenv("BOT_BIO")
     # provide this if bot fails to get (optional)
-    BOT_NAME = getenv("BOT_NAME", "Nora")
+    BOT_NAME = getenv("BOT_NAME", "Nganu")
     # provide this if bot fails to get (optional)
     BOT_PIC = getenv("BOT_PIC")
     # provide this if bot fails to get (optional)
@@ -87,13 +87,13 @@ class Configuration: # pylint: disable=too-few-public-methods
 
 # ---- assistant ----
     # set your assistant name, will be used in assistant tab's about section
-    ASSISTANT_NAME = getenv("ASSISTANT_NAME", "Lara")
+    ASSISTANT_NAME = getenv("ASSISTANT_NAME", "Er")
     # set your assistant age
-    ASSISTANT_AGE = getenv("ASSISTANT_AGE", "20")
+    ASSISTANT_AGE = getenv("ASSISTANT_AGE", "gtw")
     # set your assistant pic
     ASSISTANT_PIC = getenv("ASSISTANT_PIC", "./main/core/resources/images/nora.png")
     # set your assistant about text
-    ASSISTANT_TEXT = getenv("ASSISTANT_TEXT", "")
+    ASSISTANT_TEXT = getenv("ASSISTANT_TEXT", "kontol ah ah")
 
 # ---- vcbot ----
     # start the vcbot client
@@ -103,15 +103,15 @@ class Configuration: # pylint: disable=too-few-public-methods
 
 # ---- other ----
     # your telegraph account name (default: Tronuserbot)
-    TL_NAME = getenv("TL_NAME", "Tron UserBot")
+    TL_NAME = getenv("TL_NAME", "Er")
     # thumbnail used while uploading plugins, etc. (optional)
     THUMB_PIC = getenv("THUMB_PIC", "./main/core/resources/images/tron-square.png")
     # temporary download location (required)
     TEMP_DICT = getenv("TEMP_DICT", path.abspath(".") + "/downloads/")
     # official repo for updates
-    UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/TronUb/Tron.git")
+    UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/ErUserbot/ErTron.git anu")
     # this is used to get your accurate time
-    TIME_ZONE = getenv("TIME_ZONE", "Asia/Kolkata")
+    TIME_ZONE = getenv("TIME_ZONE", "Asia/Jakarta")
     # toggle this on/off to give/remove access of bot to sudo users
     SUDO_ACCESS = getenv("SUDO_ACCESS", None)
     # these users can use your userbot
