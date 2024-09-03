@@ -72,7 +72,7 @@ async def uplugs_handler(_, m: Message):
     """ uplugs handler for help plugin """
     store = []
     store.clear()
-    for x in os.listdir("main/userbot/modules/plugins/"):
+    for x in os.listdir("bangke/ubot/modules/plugins/"):
         if not x in ["__pycache__", "__init__.py"]:
             store.append(x + "\n")
 
